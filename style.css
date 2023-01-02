@@ -10,12 +10,29 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--bg);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+footer {
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #e84959;
+}
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-color: var(--bg);
+  min-height: 80vh;
   color: #fff;
   gap: 1em;
 }
@@ -47,6 +64,10 @@ main > img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+  
 }
 
 @media (max-width: 600px) {
