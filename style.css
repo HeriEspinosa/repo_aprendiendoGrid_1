@@ -66,10 +66,6 @@ main > img {
   align-items: center;
 }
 
-footer {
-  
-}
-
 @media (max-width: 600px) {
   .container_table > div {
       width: 50px;
